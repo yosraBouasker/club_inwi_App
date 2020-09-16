@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <ImageView
+                    android:id="@+id/image_tombola"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/visuel_test" />
+
+                <TextView
+                    android:id="@+id/tv_city"
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="210dp"
+                    android:background="@drawable/background_rounded_courners_yellow"
+                    android:gravity="center"
+                    android:text="@string/tombola_city"
+                    android:textColor="@android:color/black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/icon_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="205dp"
+                    android:src="@drawable/share"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_date_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frame"
+                android:layout_marginStart="10dp"
+                android:text="@string/tombola_date"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/accept_chexbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_date_place"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:buttonTint="@color/pink"
+                android:checked="false" />
+
+            <TextView
+                android:id="@+id/accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_date_place"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/accept_chexbox"
+                android:background="?attr/selectableItemBackground"
+                android:maxLines="1"
+                android:text="@string/reglement"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/participate"
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:layout_below="@+id/accept"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_tombola_participate"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/participate"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

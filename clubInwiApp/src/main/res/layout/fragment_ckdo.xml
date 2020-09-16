@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25242d"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/myLayoutButtonsFilter"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="6"
+            android:background="@drawable/round_corners_layout_light_grey"
+            android:orientation="horizontal">
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:id="@+id/encours"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/round_corners_grey_active"
+                android:gravity="center"
+                android:text="@string/in_that_moment"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                custom:font_style="regular" />
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:id="@+id/archiver"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/round_corners_grey_noactive"
+                android:gravity="center"
+                android:text="@string/anciens_cadeaux"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                custom:font_style="regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/img_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/filtre_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutChrono"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/myLayoutButtonsFilter"
+        android:background="@drawable/bg_black"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:id="@+id/myTextViewDateNextCKDO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                custom:font_style="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/relativeTimer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00 :"
+                    android:textColor="#ac2783"
+                    android:textSize="20dp">
+
+                </TextView>
+                <!--<com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextViewJrs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#ac2783"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    custom:font_style="bold"
+                    tools:text="00 : " />-->
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/txt_jours"
+                    android:layout_below="@+id/myTextViewJrs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/days"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="9sp"
+                    android:visibility="visible"
+                    custom:font_style="light"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginLeft="3dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00 :"
+                    android:textColor="#ac2783"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <!--<com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextViewHrs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ac2783"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    custom:font_style="bold"
+                    tools:text="00 : " />-->
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/txt_hrs"
+                    android:layout_below="@+id/myTextViewHrs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hours"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="9sp"
+                    android:visibility="visible"
+                    custom:font_style="light"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginLeft="3dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00 :"
+                    android:textColor="#ac2783"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <!--<com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextViewMin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ac2783"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    custom:font_style="bold"
+                    tools:text="00 : " />-->
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/txt_min"
+                    android:layout_below="@+id/myTextViewMin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/minuts"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="9sp"
+                    android:visibility="visible"
+                    custom:font_style="light"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginLeft="3dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00"
+                    android:textColor="#ac2783"
+                    android:textSize="20dp">
+
+                </TextView>
+                <!--<com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextViewSec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ac2783"
+                    android:textSize="20sp"
+                    custom:font_style="bold"
+                    android:visibility="visible"
+                    tools:text="00" />-->
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/txt_sec"
+                    android:layout_below="@+id/myTextViewSec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/seconde"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="9sp"
+                    android:visibility="visible"
+                    custom:font_style="light"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginLeft="3dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_ckdo1"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_below="@+id/layoutChrono"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="426dp"
+            android:layout_height="79dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/groupe373"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginBottom="26dp"
+                android:text="Profitez des cadeaux x2"
+                android:textColor="@color/grey_tab_layout"
+                android:textSize="15dp"
+                android:textStyle="normal"></TextView>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/recyclerView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frameLayout_ckdo1"
+        android:background="@color/white" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/InitialRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:padding="4dp"
+                android:scrollbars="vertical" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:padding="4dp"
+                android:scrollbars="vertical"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <!--<FrameLayout
+        android:id="@+id/frameLayout_ckdo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutChrono"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white" />-->
+    <LinearLayout
+        android:id="@+id/layoutParamEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutChrono"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/connexion" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_informations_to_show"
+            android:textColor="#4e5b75"
+            android:textSize="12sp"
+            app:font_style="bold" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/myTextConnexion"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/error_connexion"
+            android:textColor="#4e5b75"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bg_popup_kdo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutChrono"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_popup_home"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/arrow_kdo"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/fleche_up" />
+
+        <LinearLayout
+            android:id="@+id/popup_kdo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/round_corners_white"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+</RelativeLayout>

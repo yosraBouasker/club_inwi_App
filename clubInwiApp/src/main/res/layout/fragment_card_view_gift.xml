@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="17dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="4dp"
+    android:layout_gravity="center_vertical|center_horizontal"
+    tools:context=".fragments.cardViewGift"
+    android:layout_centerInParent="true"
+    android:scaleType="fitCenter"
+    android:background="@drawable/block"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingStart="0dp"
+    android:paddingEnd="0dp"
+    android:paddingHorizontal="0dp"
+    android:paddingVertical="0dp">
+
+
+
+        <ImageView
+            android:id="@+id/cardIcon"
+            android:layout_width="134dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginRight="128dp"
+            android:src="@drawable/appels_vers_inwi" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="70dp"
+            android:gravity="center_horizontal"
+            android:text="30 min on-net"
+            android:textColor="#ffff"
+            android:textSize="17dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/textCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="109dp"
+            android:text="30 min on-net"
+            android:textColor="#000"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds"></TextView>
+
+    <Button
+        android:id="@+id/ButtonProfiter"
+        android:layout_width="167dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:gravity="center_horizontal|center_vertical"
+        android:minWidth="150dp"
+        android:minHeight="32dp"
+        android:text="Profiter"
+        android:textColor="#ffff"
+        android:textStyle="bold"></Button>
+</RelativeLayout>
+

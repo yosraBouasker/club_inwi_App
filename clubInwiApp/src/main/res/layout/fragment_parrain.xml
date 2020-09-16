@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/no_parrain_exist"
+            android:textColor="#1d1d26"
+            app:font_style="regular" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/la_ligne_ne_pas_elegible" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#636367"
+            app:font_style="regular"
+            tools:text="text " />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pink"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/myParrainImageBack"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone" />
+
+                <com.inwi.clubinwi.views.CircularImageView
+                    android:id="@+id/myParrainImage"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/icon_profile" />
+            </RelativeLayout>
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:id="@+id/myTextViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/full_name"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                app:font_style="bold" />
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/member_since"
+                android:textColor="#f0dfea"
+                android:textSize="12sp"
+                android:visibility="gone"
+                app:font_style="light" />
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:id="@+id/myTextViewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textColor="#f0dfea"
+                android:textSize="13sp"
+                android:visibility="gone"
+                app:font_style="regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:src="@drawable/filleuls" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/filleuls"
+                    android:textAllCaps="true"
+                    android:textColor="#666666"
+                    android:textSize="15sp"
+                    app:font_style="regular" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextViewFilleuls"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    app:font_style="regular"
+                    tools:text="40" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/myLayoutLevel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagePhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:src="@drawable/numero" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextViewNumero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/numbers"
+                    android:textColor="#666666"
+                    android:textSize="15sp"
+                    app:font_style="regular" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextViewNumeros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    app:font_style="regular"
+                    tools:text="01" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:src="@drawable/cadeau_icon" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/gifts"
+                    android:textColor="#666666"
+                    android:textSize="15sp"
+                    app:font_style="regular" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextViewCadeaux"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    app:font_style="regular"
+                    tools:text="309" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e7e7e7" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fbfbfb"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/myListNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/myLayoutCadeauxLevel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/myImageViewLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/niveau1" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextViewLevelString"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/club_inwi"
+                    android:textColor="@color/pink"
+                    android:textSize="25sp"
+                    app:font_style="regular" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+
+        <com.inwi.clubinwi.views.CircularImageView
+            android:id="@+id/avatarFilleul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/contact_default" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/avatarFilleul"
+            android:orientation="vertical">
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:id="@+id/myTextViewFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#686869"
+                android:textSize="13sp"
+                custom:font_style="light"
+                tools:text="TINGUER ABDELKARIM" />
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:id="@+id/myTextViewPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1d1d26"
+                android:textSize="13sp"
+                custom:font_style="regular"
+                tools:text="O678 55 94 12" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/popup_phone" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/myTextViewStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/imageView1"
+            android:background="@drawable/round_corners_filleul_accepte"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="2dp"
+            android:text="@string/accept"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            custom:font_style="light" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/light_gray" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_tuto_android" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/buttons" />
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/pager_indicator"
+        style="@style/CustomCirclePageIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttons"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/inscription"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners_white"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/subscribe"
+            android:textColor="#333333" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/connexion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners_pink"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/connexion"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>

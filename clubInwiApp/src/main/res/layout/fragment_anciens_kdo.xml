@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/pullToRefreshCKDO"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView_passe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C2C2C2" />
+
+            <LinearLayout
+                android:id="@+id/layoutParamEmpty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/connexion" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_informations_to_show"
+                    android:textColor="#4e5b75"
+                    android:textSize="12sp"
+                    app:font_style="bold" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/myTextConnexion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="@string/error_connexion"
+                    android:textColor="#4e5b75"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/myLayoutEmptyCurrentOffre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#2e2d37"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_cadeau" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="#3e3d4c"
+                    android:textSize="20sp"
+                    custom:font_style="regular" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

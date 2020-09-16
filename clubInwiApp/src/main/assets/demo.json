@@ -1,0 +1,66 @@
+{
+  "header": "OK",
+  "status": 200,
+  "message": "current et campanie tickets.",
+  "result": {
+    "tickets": [
+      {
+        "title": "Vendredi 2 Mars 2018 au Megarama",
+        "description": "Le nouveau spectacle de Hassan El Fed mettra en avant le personnage de Kabour dans toute sa splendeur, avec une mise en sc\u00e8ne exceptionnelle repr\u00e9sent\u00e9e sous forme d\u0027interviews sur sc\u00e8ne avec ce personnage incorrigible.\r\n",
+        "image": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/2018-02\/Miniature-ticketing-02.03.2018.jpg",
+        "ticket_id": "787",
+        "compagnie_id": "792",
+        "ville": "Marrakech",
+        "benefit": 1,
+        "status": 1,
+        "pdf": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/reglement_Tombola.pdf"
+      },
+      {
+        "title": "Vendredi 7 Mars 2018 au centre culturel Ahmed Boukmakh",
+        "description": "Le nouveau spectacle de Hassan El Fed mettra en avant le personnage de Kabour dans toute sa splendeur, avec une mise en sc\u00e8ne exceptionnelle repr\u00e9sent\u00e9e sous forme d\u0027interviews sur sc\u00e8ne avec ce personnage incorrigible.",
+        "image": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/2018-02\/Miniature-ticketing-07.03.2018.jpg",
+        "ticket_id": "788",
+        "compagnie_id": "792",
+        "ville": "Tanger",
+        "benefit": 1,
+        "status": 1,
+        "pdf": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/reglement_Tombola.pdf"
+      },
+      {
+        "title": "Vendredi 9 Mars 2018 au Megarama",
+        "description": "Le nouveau spectacle de Hassan El Fed mettra en avant le personnage de Kabour dans toute sa splendeur, avec une mise en sc\u00e8ne exceptionnelle repr\u00e9sent\u00e9e sous forme d\u0027interviews sur sc\u00e8ne avec ce personnage incorrigible.\r\n",
+        "image": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/2018-02\/Miniature-ticketing-09.03.2018.jpg",
+        "ticket_id": "790",
+        "compagnie_id": "792",
+        "ville": "F\u00e9s",
+        "benefit": 1,
+        "status": 1,
+        "pdf": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/reglement_Tombola.pdf"
+      },
+      {
+        "title": "Vendredi 10 Mars 2018 au Th\u00e9\u00e2tre Med 6",
+        "description": "Le nouveau spectacle de Hassan El Fed mettra en avant le personnage de Kabour dans toute sa splendeur, avec une mise en sc\u00e8ne exceptionnelle repr\u00e9sent\u00e9e sous forme d\u0027interviews sur sc\u00e8ne avec ce personnage incorrigible.\r\n\r\n",
+        "image": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/2018-02\/Miniature-ticketing-10.03.2018.jpg",
+        "ticket_id": "791",
+        "compagnie_id": "792",
+        "ville": "Oujda",
+        "benefit": 1,
+        "status": 1,
+        "pdf": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/reglement_Tombola.pdf"
+      },
+      {
+        "title": "Restez connect\u00e9s, 11 nouvelles dates \u00e0 venir.",
+        "description": "Le nouveau spectacle de Hassan El Fed mettra en avant le personnage de Kabour dans toute sa splendeur, avec une mise en sc\u00e8ne exceptionnelle repr\u00e9sent\u00e9e sous forme d\u0027interviews sur sc\u00e8ne avec ce personnage incorrigible.\r\n",
+        "image": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/2018-02\/Nouvelle%20dates.jpg",
+        "ticket_id": "805",
+        "compagnie_id": "792",
+        "ville": "",
+        "benefit": 1,
+        "status": 0,
+        "pdf": "http:\/\/rct.club.inwi.ma\/sites\/default\/files\/reglement_Tombola.pdf"
+      }
+    ],
+    "dateExp": "2018-04-14 23:00:00",
+    "message": "Avant l\u2019expiration des 15 spectacles"
+  }
+}

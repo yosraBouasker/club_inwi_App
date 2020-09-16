@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/sousMenu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#aa2c82"
+        android:paddingBottom="5dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="5dp">
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/parrainTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners_parrain_disable"
+            android:gravity="center"
+            android:text="@string/parrain"
+            android:textColor="@color/white"
+            custom:font_style="regular" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/filleulsTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/round_corners_filleuls"
+            android:gravity="center"
+            android:text="@string/filleuls"
+            android:textColor="@color/white"
+            custom:font_style="regular" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_content_parrainage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sousMenu" />
+
+</RelativeLayout>

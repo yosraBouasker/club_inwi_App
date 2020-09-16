@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.inwi.clubinwi.MainActivity">
+    <!-- Content -->
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <include
+                    android:id="@+id/header"
+                    layout="@layout/header_home"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp" />
+
+                <FrameLayout
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/footer"
+                    android:layout_below="@+id/header" />
+
+                <include
+                    android:id="@+id/footer"
+                    layout="@layout/footer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="-5dp" />
+
+                <RelativeLayout
+                    android:id="@+id/bg_popup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/background_popup_home"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/fleche_up" />
+
+                    <LinearLayout
+                        android:id="@+id/popup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/arrow"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="-2dp"
+                        android:background="@drawable/round_corners_white"
+                        android:orientation="vertical"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/myLayoutPub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imagePub"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="#00ffffff" />
+
+                <ImageView
+                    android:id="@+id/closePub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:padding="10dp"
+                    android:src="@drawable/close_pub" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/menu_content"
+            android:layout_width="@dimen/width_menu"
+            android:layout_height="match_parent"
+            android:layout_gravity="left" />
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

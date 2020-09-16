@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "808904238919",
+    "firebase_url": "https://club-inwi.firebaseio.com",
+    "project_id": "club-inwi",
+    "storage_bucket": "club-inwi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808904238919:android:bff14b1ef3b57b42",
+        "android_client_info": {
+          "package_name": "com.inwi.clubinwi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808904238919-h9pavcqs4t89m9niceomku8623gc20cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtntfWghtmz2hPuQS9HGB7VmSS4mkb13k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

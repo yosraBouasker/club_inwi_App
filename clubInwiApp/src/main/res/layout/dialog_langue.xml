@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/round_corners_layout"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="@string/select_langue"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="#d1d6e1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutLangue"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#f7f7f7"
+        android:padding="10dp">
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_toRightOf="@id/buttonSwitchLangue"
+            android:padding="10dp"
+            android:text="@string/french"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/buttonSwitchLangue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/switchon_ar" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_toLeftOf="@+id/buttonSwitchLangue"
+            android:padding="10dp"
+            android:text="@string/arabic"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="10dp">
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/validate_langue"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/background_bouton_validate_pink"
+            android:gravity="center"
+            android:text="@string/validate"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </RelativeLayout>
+</LinearLayout>

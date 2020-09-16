@@ -1,0 +1,92 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- <?xml version="1.0" encoding="utf-8"?> -->
+    <!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+    <!-- xmlns:custom="http://schemas.android.com/apk/res-auto" -->
+    <!-- xmlns:app="http://schemas.android.com/apk/res-auto" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:background="@color/white" > -->
+
+    <ListView
+        android:id="@+id/myListFilleuls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/parrainUnAmiPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white"
+        android:visibility="gone"
+        app:backgroundTint="@color/pink"
+        app:fabSize="normal" />
+
+    <RelativeLayout
+        android:id="@+id/myLayoutAddParrain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/myTextViewAddFilleul1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/pour_pouvoir_parrainer"
+            android:textColor="#1d1d26"
+            app:font_style="regular" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/la_ligne_ne_pas_elegible" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/myTextViewAddFilleul2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myTextViewAddFilleul1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/vous_devez_tre_ligible"
+            android:textColor="#636367"
+            app:font_style="regular" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/myPrrainerUnAmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/round_corners_kdo"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:text="@string/parrainer_ami"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            custom:font_style="regular" />
+    </RelativeLayout>
+
+
+    <!-- </RelativeLayout> -->
+
+</android.support.design.widget.CoordinatorLayout>

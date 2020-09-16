@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView_kdo_item"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/white"
+            android:src="@drawable/bg_login" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:id="@+id/textView_title_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="20dp"
+                android:text="Un passe internationnal de 3H" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/textView_profiter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/round_corners_pink"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    android:text="Profiter et Offrire"
+                    android:textColor="@color/white"
+                    custom:font_style="regular" />
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/textView_offrir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/round_corners_pink"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    android:text="Profiter"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_kdo_item"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/share" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/textView_point_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/round_corners_grey"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text="à 3000 pts"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

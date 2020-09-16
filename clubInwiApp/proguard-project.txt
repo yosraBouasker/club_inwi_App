@@ -1,0 +1,186 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+#Keep classes that are referenced on the AndroidManifest
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.FragmentActivity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+-keepattributes Signature
+
+-keep class com.flurry.** { *; }
+
+-keep class com.crashlytics.** { *; }
+-keep class com.crashlytics.android.**
+-dontwarn com.crashlytics.**
+
+#Maintain java native methods  VOLLEY
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+-keepclassmembers class * implements android.os.Parcelable {
+    static ** CREATOR;
+}
+-dontwarn com.android.volley.toolbox.**
+-dontwarn android.net.http.AndroidHttpClient
+
+#To remove debug logs:
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+    public static *** v(...);
+    public static *** w(...);
+    public static *** i(...);
+}
+
+#To keep parcelable classes (to serialize - deserialize objects to sent through Intents)
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+#Keep the R
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+#If using Serializable 
+-keepclassmembers class * implements java.io.Serializable {
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+-keep class com.googlecode.** {
+    *;
+}
+
+# Keep the annotations
+-keepattributes *Annotation*
+
+#Google gms
+-keep class * extends java.util.ListResourceBundle {
+    protected Object[][] getContents();
+}
+
+-keep public class com.google.android.gms.**
+
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+    @com.google.android.gms.common.annotation.KeepName *;
+}
+
+-keepnames class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+-keep class Lcom.google.android.gms.maps.**
+-keepclasseswithmembernames class Lcom.google.android.gms.maps.** {
+    native <methods>;
+}
+
+-keep class com.google.android.gms.maps.**
+-keepclasseswithmembernames class com.google.android.gms.maps.** {
+    native <methods>;
+}
+
+-keep class com.google.android.gms.**
+
+-keep class org.json.** { *; }
+
+-dontwarn android.support.**
+-dontwarn com.newrelic.**
+-dontwarn android.view.**
+-dontwarn com.daimajia.**
+-dontwarn com.squareup.okhttp.**
+-dontwarn com.facebook.**
+-dontwarn android.app.**
+-dontwarn org.simpleframework.xml.**
+-dontwarn android.webkit.**
+-dontwarn android.net.**
+-dontwarn com.google.android.gms.**
+
+-dontwarn org.json.**
+
+-keep class org.apache.** { *; }
+
+-dontwarn org.apache.**
+
+-keep class com.loopj.android.http.**
+-dontwarn com.loopj.android.http.**
+
+-renamesourcefileattribute SourceFile    
+-keepattributes SourceFile,LineNumberTable
+
+##---------------Begin: proguard configuration for Gson  ----------
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it. (exist deja)
+#-keepattributes Signature
+
+# For using GSON @Expose annotation (exist deja)
+#-keepattributes *Annotation*
+
+# Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+#-keep class com.google.gson.stream.** { *; }
+
+# Application classes that will be serialized/deserialized over Gson
+-keep class com.google.gson.examples.android.model.** { *; }
+
+##---------------End: proguard configuration for Gson  ----------
+
+# support design
+-dontwarn android.support.design.**
+-keep class android.support.design.** { *; }
+-keep interface android.support.design.** { *; }
+-keep public class android.support.design.R$* { *; }
+
+##--- Doesn't Resolve The Problem Yet --> Resolve BUG : unable to start activity componentinfo java lang runtimeexception : parcel android.os.parcel ----
+##-keepclassmembers class * implements android.os.Parcelable {
+##   static ** CREATOR;
+##}

@@ -1,0 +1,244 @@
+<resources>
+
+    <string name="app_name" translatable="false">club inwi</string>
+    <string name="facebook_app_id" translatable="false">156144351393577</string>
+    <string name="no_internet">Vérifier votre connexion internet</string>
+    <string name="patientez">Veuillez patienter</string>
+    <string name="message_erreur">Merci de verifier tous les champs</string>
+    <string name="length_password">Veuillez saisir au moins 6 caractères.</string>
+    <string name="email_format">L\'adresse e-mail indiquée est incorrecte</string>
+    <string name="cgu_unchecked">Veuillez accepter les Conditions Générales d\'Utilisation</string>
+    <string name="mot_de_passe_oublie">Mot de passe oublié ?</string>
+
+    <!-- ===MENU==== -->
+    <string name="mes_forfaits">Mes numéros</string>
+    <string name="resultat_eligibilite" translatable="false">Test d\'éligibilité</string>
+    <string name="ajouter_numero">Ajouter un numéro</string>
+    <string name="historique_comte">Historique du compte</string>
+    <string name="parrainage" translatable="false">Parrainage</string>
+    <string name="parrainer_un_ami" translatable="false">Parrainer un ami</string>
+    <string name="vos_parrainages" translatable="false">Vos parrainages</string>
+    <string name="presentation">A propos</string>
+    <string name="concept">Concept</string>
+    <string name="offres_concernees" translatable="false">Offres Concernées</string>
+    <string name="descriptif">Descriptif</string>
+    <string name="client_tictac" translatable="false">Client TicTac</string>
+    <string name="client_zen" translatable="false">Client Zen</string>
+    <string name="client_inwi_fixe" translatable="false">Client inwi fixe</string>
+    <string name="client_hdm" translatable="false">Client HDM</string>
+    <string name="cadeaux">Mes cadeaux</string>
+    <string name="Tombola_icone">Mes cadeaux</string>
+
+    <string name="iflix">iflix</string>
+
+
+    <string name="tombola">Tombola spectacle</string>
+    <string name="settings">Paramètres</string>
+    <string name="clubinwi" translatable="false">Le Club inwi</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="partager_application">Partager l\'application</string>
+
+    <!-- ===RESULTATS ELIGIBILITE==== -->
+    <string name="verifier_eligibilite_ma_ligne" translatable="false">VÉRIFIER L\'ÉLIGIBILITÉ DE MA LIGNE</string>
+    <string name="felicitations">FÉLICITATIONS !</string>
+    <string name="vous_n_etes_pas_eligible" translatable="false">Vous n\'êtes pas éligible, vous ne pouvez pas profiter\nde tous les avantages du club inwi</string>
+    <string name="la_ligne_n_est_pas_eligible" translatable="false">LA LIGNE N\'EST PAS ÉLIGIBLE !</string>
+    <string name="vous_etes_elibile" translatable="false">Vous êtes éligible, vous pouvez profiter de tous \nles avantages du club inwi </string>
+    <string name="cliquez_pour_vérifier_votre_ligne">Cliquez pour vérifier votre ligne</string>
+    <string name="merci_de_cliquer_sur_play" translatable="false">Merci de Cliquer sur play pour vérifier...</string>
+    <string name="text_sms">Au moins 6 caractères, sensible aux majuscules. Évitez les mots courants et les noms. Les meilleurs mots de passe contiennent des chiffres et des caractères spéciaux (&amp;,%,#)</string>
+    <string name="probleme_connexion">Veuillez vérifier votre connexion et réessayer</string>
+    <!-- ===URL==== -->
+    <string name="URL_HOME">http://inwi.mobiblanc.com/home.json</string>
+    <string name="BASE_URL">http://mobile.club.inwi.ma/html/mobile.php/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reglement">J’atteste lu et accepté <u>le réglement</u> de la tombola</string>
+    <string name="reglement_annif"> j\'ai lu et j\'accepte <u>le réglement</u> de la tombola  </string>
+
+    <string name="message_erreur_code_no_iden">Le mot de passe doit etre identique</string>
+    <string name="club_inwi" translatable="false">Club inwi</string>
+    <string name="parrainer_ami" translatable="false">Parrainer un ami</string>
+    <string name="profil">Profil</string>
+    <string name="modifier_mon_profil">Modifier mon profil</string>
+    <string name="accept">ACCEPTÉ</string>
+    <string name="delete">Supprimer</string>
+    <string name="cancel">Annuler</string>
+    <string name="confirm">Confirmer</string>
+    <string name="connexion">Connexion</string>
+    <string name="take_photo">Prendre une photo</string>
+    <string name="photo_gallery">bibliothèque de photos</string>
+    <string name="subscribe">Inscription</string>
+    <string name="congratulation">FÉLICITATIONS</string>
+    <string name="congratulation_annif">FÉLICITATIONS</string>
+    <string name="congratulation_message_annif">vous avez participé au tombola anniversaire et vous avez gagné un cadeau de </string>
+    <string name="cadeau_annif">500 Mo d\'internet</string>
+    <string name="you_number">Votre numéro (</string>
+    <string name="was_added_with_succes">a été ajouté avec succès</string>
+    <string name="parenthese" translatable="false">)</string>
+    <string name="ok">OK</string>
+    <string name="activation_code">Code d\'activation</string>
+    <string name="your_gift_send_succes">Votre KDO a bien été transmis</string>
+    <string name="offrir">Offrir</string>
+    <string name="add">Ajouter</string>
+    <string name="add_new_number_to_account">Associez un nouveau numéro de téléphone à votre compte</string>
+    <string name="phone_number">N° DE TÉLÉPHONE</string>
+    <string name="no_informations_to_show">AUCUNE INFORMATION À AFFICHER</string>
+    <string name="error_connexion">Veuillez vérifier votre connexion et réessayer</string>
+    <string name="in_that_moment">en ce moment</string>
+    <string name="anciens_cadeaux">anciens cadeaux</string>
+    <string name="days">JRS</string>
+    <string name="hours">HRS</string>
+    <string name="minuts">MIN</string>
+    <string name="seconde">SEC</string>
+    <string name="next_gift_at">Prochain cadeau dans</string>
+    <string name="before_expiration_of_gift">Avant l\'expiration du cadeau </string>
+    <string name="no_gift_this_moment">Aucun cadeau pour le moment</string>
+    <string name="no_gift_for_this_day">Aucun cadeau disponible aujourd\'hui</string>
+    <string name="pour_pouvoir_parrainer" translatable="false">Pour pouvoir parrainer</string>
+    <string name="vous_devez_tre_ligible" translatable="false">vous devez être éligible</string>
+    <string name="code_forgort_password">CODE DE RÉINITIALISATION</string>
+    <string name="new_password">NOUVEAU MOT DE PASSE</string>
+    <string name="confirm_new_password">CONFIRMER NOUVEAU MOT DE PASSE</string>
+    <string name="password_reset">Réinitialiser le mot de passe</string>
+    <string name="create_new_password">Créer votre nouveau mot de passe</string>
+    <string name="phone">TELEPHONE</string>
+    <string name="enter_your_phone">Entrez votre Téléphone</string>
+    <string name="validate">Valider</string>
+    <string name="good">Bien!</string>
+    <string name="code_reset_password">Votre demande de réinitialisation du mot de passe a été envoyée</string>
+    <string name="reset_password_sent">Un code d\'activation vous a été envoyé par sms</string>
+    <string name="club_inwi_advantage" translatable="false">Les + du club</string>
+    <string name="or">ou</string>
+    <string name="n_cin">N° CIN</string>
+    <string name="last_name">NOM</string>
+    <string name="first_name">PRÉNOM</string>
+    <string name="sexe">SEXE</string>
+    <string name="man">Homme</string>
+    <string name="woman">Femme</string>
+    <string name="e_mail">E-MAIL</string>
+    <string name="password">MOT DE PASSE</string>
+    <string name="accept_condition">J\'accepte les conditions générales</string>
+    <string name="accept_inwi_rules">J\'accepte que Inwi partage mes données personnelles avec ses partenaires</string>
+    <string name="inscrire">S\'inscrire</string>
+    <string name="activation_code_forgot">Code d\'activation oublié?</string>
+    <string name="full_name">Name</string>
+    <string name="no_parrain_exist" translatable="false">Vous n\'avez aucun parrain!</string>
+    <string name="member_since">Membre depuis le</string>
+    <string name="date" translatable="false">30 AOUT 2014</string>
+    <string name="filleuls" translatable="false">Filleuls</string>
+    <string name="numbers">NUMÉROS</string>
+    <string name="gifts">CADEAUX</string>
+    <string name="club_inwi_premium">Club inwi Premium</string>
+    <string name="parrain" translatable="false">Parrain</string>
+    <string name="parrainer" translatable="false">Parrainer</string>
+    <string name="notifications_push">Notifications push</string>
+    <string name="invitation">INVITATION</string>
+    <string name="share_app">Partager l\'application</string>
+    <string name="data_manager">GESTION DES DONNÉES</string>
+    <string name="clear_cache">Vider le cache</string>
+    <string name="informations">INFORMATIONS</string>
+    <string name="faq">FAQ</string>
+    <string name="use_condition">Conditions d\'utilisation</string>
+    <string name="entrez_votre_nom">Entrez votre Nom</string>
+    <string name="entrez_votre_prenom">Entrez votre Prénom</string>
+    <string name="adresse_mail">Entrez votre E-mail</string>
+    <string name="birth_day">DATE DE NAISSANCE</string>
+    <string name="adresse">ADRESSE</string>
+    <string name="entrez_votre_adresse_postale">Entrez votre adresse postale</string>
+    <string name="code_postal">CODE POSTAL</string>
+    <string name="entrez_votre_code_postal">Entrez votre code postal</string>
+    <string name="enter_city">Entrez votre ville</string>
+    <string name="city">VILLE</string>
+    <string name="edit">Modifier</string>
+    <string name="description" translatable="false">Un passe internationnal de 3H</string>
+    <string name="description_tombola_anniversaire_titre" translatable="false">Tombola d\'anniversaire  </string>
+    <string name="description_tombola_anniversaire_content" translatable="false">Chaque année, vous êtes toujours plus nombreux à nous faire confiance.</string>
+
+    <string name="profiter_et_offrir">Profiter et Offrir</string>
+    <string name="profiter">Profiter</string>
+    <string name="points" translatable="false">à 3000 pts</string>
+    <string name="tombola_city" translatable="false">Marrakech</string>
+    <string name="tombola_date" translatable="false">Vendredi 10 Mars</string>
+    <string name="participate">je participe</string>
+    <string name="comment_a_marche">Comment ça marche</string>
+    <string name="pager_login0_description">Devenez membre du club inwi et profitez chaque semaine d’avantages exclusifs sans contrepartie.</string>
+    <string name="le_kdo_de_la_semaine">Le kdo de la semaine</string>
+    <string name="pager_login1_description">En tant que membre du club inwi, profitez d\'un cadeau chaque semaine.</string>
+    <string name="eligible" translatable="false">L\'éligibilité</string>
+    <string name="pager_login2_description" translatable="false">Pour devenir membre du club inwi, il vous suffit d’être client inwi depuis 3 mois et d’utiliser régulièrement votre mobile.</string>
+    <string name="pager_login3_description">Vous pouvez vous inscrire au club en seulement 3 clics grâce à votre numéro de téléphone qui est votre point d’accès au club.</string>
+    <string name="tombola_spectacle_kabour">Tombola spectacle Kabour</string>
+    <string name="pager_login4_description">Participez à la tombola et tentez de gagner 2 tickets pour assister au nouveau spectacle de Kabour Plus de 700 tickets en jeu.</string>
+    <string name="langue">Langue</string>
+    <string name="french" translatable="false">Français</string>
+    <string name="arabic" translatable="false">العربية</string>
+    <string name="select_langue">Choisissez votre langue</string>
+    <string name="not_member_inwi">Pas encore membre du club inwi ?</string>
+    <string name="member_inwi">Déjà membre du club inwi ?</string>
+    <string name="offre_iflix">Offre Iflix</string>
+    <string name="offre_ichoura">Cadeaux Achoura</string>
+    <string name="anniversary_title">1AN d\'abonnement à gagner et pleins de KDO</string>
+    <string name="pager_login_anniversary">Jusqu\'au 21/12, tentez de gagner 1AN d\'abonnement et profitez d\'un KDO offert chaque semaine</string>
+
+    <string name="pager_login_iflix_description">En exclusivité TOUS les membres du club inwi pourront bénéficier de 6 mois gratuits d’IFLIX</string>
+    <string name="pager_login_ichoura_description">À l\'occasion de Achoura, inwi vous offre un KDO  par jour pendant 10 jours.cette offre est valable du 12 au 21 septembre</string>
+
+    <string name="point">pts</string>
+
+    <string name="user_points">points</string>
+
+    <string name="user_histoque">Historique</string>
+
+    <plurals name="numberOfItems">
+        <item quantity="one">Point</item>
+        <item quantity="other">Points</item>
+    </plurals>
+
+    <plurals name="dayOfItems">
+        <item quantity="one">Jour</item>
+        <item quantity="other">Jours</item>
+    </plurals>
+
+    <plurals name="hourOfItems">
+        <item quantity="one">Heure</item>
+        <item quantity="other">Heures</item>
+    </plurals>
+
+    <plurals name="minOfItems">
+        <item quantity="one">Minute</item>
+        <item quantity="other">Minutes</item>
+    </plurals>
+
+    <plurals name="secOfItems">
+        <item quantity="one">Seconde</item>
+        <item quantity="other">Secondes</item>
+    </plurals>
+
+    <!--*********************************************-->
+    <!--ACHOURA-->
+    <string name="label_terms"><![CDATA[J\'accepte <u><font color=\'#FF4081\'> les conditions générales </font></u> de jeu]]></string>
+    <string name="label_achoura">Achoura</string>
+    <string name="label_cadeau_achoura">Cadeaux Achoura</string>
+    <string name="_desc">À l\'occasion de Achoura et jusqu\’au 11 Septembre, profitez chaque jour d\'un KDO sans contrepartie : Des écouteurs Bluetooth, des montres connectées, des Pass appels nationaux, internet et bien d\’autres KDO vous attendent</string>
+    <string name="label_action_go">GO</string>
+    <string name="label_accept">J\'accepte </string>
+    <string name="label_game"> de jeu.</string>
+    <string name="label_congrats">Félicitations</string>
+    <string name="label_sorry">Désolé</string>
+    <string name="label_not_eligible">Vous avez déjà profité de ce cadeau.</string>
+    <string name="text_loading">Chargement…</string>
+    <string name="action_retry">Réessayer</string>
+    <string name="label_generic_failure">Echec! Reesayer de nouveau.</string>
+    <string name="label_mes_cadeaux_achoura">Mes cadeaux Achoura</string>
+    <string name="label_achoura_login_description">à l\'occasion de Achoura et jusqu\’au 11 Septembre, profitez chaque jour d\'un KDO sans contrepartie.</string>
+    <string name="title_splash_achoura">Identifiez-vous pour accéder à la roue spéciale Achoura offrant un KDO par jour</string>
+    <string name="label_achour_screen_title">Spéciale Achoura</string>
+    <string name="achoura_agreement">Règlement</string>
+    <string name="text_before_op_expiry">Avant l\'expiration de cette offre</string>
+    <string name="menu_catalog_terminaux">Catalogue terminaux</string>
+    <string name="msg_error_generic">Erreur! éssayer de nouveau.</string>
+    <!--*********************************************-->
+
+</resources>

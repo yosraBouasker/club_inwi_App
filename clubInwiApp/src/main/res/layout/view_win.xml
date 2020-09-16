@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/transparent_black"
+    android:clickable="true"
+    android:focusable="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:scaleType="fitXY"
+            android:id="@+id/iv_win_bg"
+            tools:src="@drawable/cadre_congrats"/> <!--tools:src="@drawable/cadre_congrats"-->
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/bt_fermer"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/iv_close_win"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/violet"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:background="@android:color/white"
+                android:text="@string/label_congrats" />
+
+            <com.inwi.clubinwi.views.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="56dp"
+                android:layout_marginRight="56dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@android:color/white"
+                android:id="@+id/tv_win_gift"
+                tools:text="Vous avez gagne une Navigaton Youtube valable pendant le jour." />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:id="@+id/civ_cadeau"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/light_gray"
+                tools:src="@drawable/inwiwiwi" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

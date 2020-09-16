@@ -1,0 +1,502 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From ClubInwiApp:
+* .DS_Store
+* fabric.properties
+* ic_launcher-web.png
+* kit-libs/
+* kit-libs/com-crashlytics-sdk-android_answers_3/
+* kit-libs/com-crashlytics-sdk-android_answers_3/.classpath
+* kit-libs/com-crashlytics-sdk-android_answers_3/.project
+* kit-libs/com-crashlytics-sdk-android_answers_3/.settings/
+* kit-libs/com-crashlytics-sdk-android_answers_3/.settings/org.eclipse.jdt.core.prefs
+* kit-libs/com-crashlytics-sdk-android_answers_3/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_answers_3/aapt/
+* kit-libs/com-crashlytics-sdk-android_answers_3/aapt/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/classes/
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/classes/com/
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/classes/com/crashlytics/
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/classes/com/crashlytics/android/
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/classes/com/crashlytics/android/answers/
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/classes/com/crashlytics/android/answers/BuildConfig.class
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/com-crashlytics-sdk-android_answers_3.jar
+* kit-libs/com-crashlytics-sdk-android_answers_3/bin/jarlist.cache
+* kit-libs/com-crashlytics-sdk-android_answers_3/build.xml
+* kit-libs/com-crashlytics-sdk-android_answers_3/gen/
+* kit-libs/com-crashlytics-sdk-android_answers_3/gen/com/
+* kit-libs/com-crashlytics-sdk-android_answers_3/gen/com/crashlytics/
+* kit-libs/com-crashlytics-sdk-android_answers_3/gen/com/crashlytics/android/
+* kit-libs/com-crashlytics-sdk-android_answers_3/gen/com/crashlytics/android/answers/
+* kit-libs/com-crashlytics-sdk-android_answers_3/gen/com/crashlytics/android/answers/BuildConfig.java
+* kit-libs/com-crashlytics-sdk-android_answers_3/kit-version.properties
+* kit-libs/com-crashlytics-sdk-android_answers_3/libs/
+* kit-libs/com-crashlytics-sdk-android_answers_3/libs/com-crashlytics-sdk-android_answers-classes.jar
+* kit-libs/com-crashlytics-sdk-android_answers_3/project.properties
+* kit-libs/com-crashlytics-sdk-android_beta_3/
+* kit-libs/com-crashlytics-sdk-android_beta_3/.classpath
+* kit-libs/com-crashlytics-sdk-android_beta_3/.project
+* kit-libs/com-crashlytics-sdk-android_beta_3/.settings/
+* kit-libs/com-crashlytics-sdk-android_beta_3/.settings/org.eclipse.jdt.core.prefs
+* kit-libs/com-crashlytics-sdk-android_beta_3/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_beta_3/aapt/
+* kit-libs/com-crashlytics-sdk-android_beta_3/aapt/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/classes/
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/classes/com/
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/classes/com/crashlytics/
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/classes/com/crashlytics/android/
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/classes/com/crashlytics/android/beta/
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/classes/com/crashlytics/android/beta/BuildConfig.class
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/com-crashlytics-sdk-android_beta_3.jar
+* kit-libs/com-crashlytics-sdk-android_beta_3/bin/jarlist.cache
+* kit-libs/com-crashlytics-sdk-android_beta_3/build.xml
+* kit-libs/com-crashlytics-sdk-android_beta_3/gen/
+* kit-libs/com-crashlytics-sdk-android_beta_3/gen/com/
+* kit-libs/com-crashlytics-sdk-android_beta_3/gen/com/crashlytics/
+* kit-libs/com-crashlytics-sdk-android_beta_3/gen/com/crashlytics/android/
+* kit-libs/com-crashlytics-sdk-android_beta_3/gen/com/crashlytics/android/beta/
+* kit-libs/com-crashlytics-sdk-android_beta_3/gen/com/crashlytics/android/beta/BuildConfig.java
+* kit-libs/com-crashlytics-sdk-android_beta_3/kit-version.properties
+* kit-libs/com-crashlytics-sdk-android_beta_3/libs/
+* kit-libs/com-crashlytics-sdk-android_beta_3/libs/com-crashlytics-sdk-android_beta-classes.jar
+* kit-libs/com-crashlytics-sdk-android_beta_3/project.properties
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/.classpath
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/.project
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/.settings/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/.settings/org.eclipse.jdt.core.prefs
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/aapt/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/aapt/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/classes/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/classes/com/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/classes/com/crashlytics/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/classes/com/crashlytics/android/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/classes/com/crashlytics/android/core/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/classes/com/crashlytics/android/core/BuildConfig.class
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/com-crashlytics-sdk-android_crashlytics-core_3.jar
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/bin/jarlist.cache
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/build.xml
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/gen/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/gen/com/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/gen/com/crashlytics/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/gen/com/crashlytics/android/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/gen/com/crashlytics/android/core/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/gen/com/crashlytics/android/core/BuildConfig.java
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/kit-version.properties
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/libs/
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/libs/com-crashlytics-sdk-android_crashlytics-core-classes.jar
+* kit-libs/com-crashlytics-sdk-android_crashlytics-core_3/project.properties
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/.classpath
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/.project
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/.settings/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/.settings/org.eclipse.jdt.core.prefs
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/aapt/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/aapt/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/bin/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/bin/AndroidManifest.xml
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/bin/classes/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/bin/classes/com/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/bin/classes/com/crashlytics/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/bin/classes/com/crashlytics/android/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/bin/classes/com/crashlytics/android/BuildConfig.class
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/bin/com-crashlytics-sdk-android_crashlytics_3.jar
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/bin/jarlist.cache
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/build.xml
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/gen/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/gen/com/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/gen/com/crashlytics/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/gen/com/crashlytics/android/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/gen/com/crashlytics/android/BuildConfig.java
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/kit-version.properties
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/libs/
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/libs/com-crashlytics-sdk-android_crashlytics-classes.jar
+* kit-libs/com-crashlytics-sdk-android_crashlytics_3/project.properties
+* kit-libs/io-fabric-sdk-android_fabric_3/
+* kit-libs/io-fabric-sdk-android_fabric_3/.classpath
+* kit-libs/io-fabric-sdk-android_fabric_3/.project
+* kit-libs/io-fabric-sdk-android_fabric_3/.settings/
+* kit-libs/io-fabric-sdk-android_fabric_3/.settings/org.eclipse.jdt.core.prefs
+* kit-libs/io-fabric-sdk-android_fabric_3/AndroidManifest.xml
+* kit-libs/io-fabric-sdk-android_fabric_3/aapt/
+* kit-libs/io-fabric-sdk-android_fabric_3/aapt/AndroidManifest.xml
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/AndroidManifest.xml
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/classes/
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/classes/io/
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/classes/io/fabric/
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/classes/io/fabric/sdk/
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/classes/io/fabric/sdk/android/
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/classes/io/fabric/sdk/android/BuildConfig.class
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/io-fabric-sdk-android_fabric_3.jar
+* kit-libs/io-fabric-sdk-android_fabric_3/bin/jarlist.cache
+* kit-libs/io-fabric-sdk-android_fabric_3/build.xml
+* kit-libs/io-fabric-sdk-android_fabric_3/gen/
+* kit-libs/io-fabric-sdk-android_fabric_3/gen/io/
+* kit-libs/io-fabric-sdk-android_fabric_3/gen/io/fabric/
+* kit-libs/io-fabric-sdk-android_fabric_3/gen/io/fabric/sdk/
+* kit-libs/io-fabric-sdk-android_fabric_3/gen/io/fabric/sdk/android/
+* kit-libs/io-fabric-sdk-android_fabric_3/gen/io/fabric/sdk/android/BuildConfig.java
+* kit-libs/io-fabric-sdk-android_fabric_3/kit-version.properties
+* kit-libs/io-fabric-sdk-android_fabric_3/libs/
+* kit-libs/io-fabric-sdk-android_fabric_3/libs/io-fabric-sdk-android_fabric-classes.jar
+* kit-libs/io-fabric-sdk-android_fabric_3/proguard.txt
+* kit-libs/io-fabric-sdk-android_fabric_3/project.properties
+* kits.properties
+* proguard/
+* proguard/dump.txt
+* proguard/mapping.txt
+* proguard/seeds.txt
+* proguard/usage.txt
+From Library:
+* .DS_Store
+* proguard-project.txt
+From PatternedEditText:
+* .DS_Store
+* proguard-project.txt
+From Slice PUSH:
+* .DS_Store
+* .metadata/
+* .metadata/.DS_Store
+* .metadata/.lock
+* .metadata/.log
+* .metadata/.plugins/
+* .metadata/.plugins/.DS_Store
+* .metadata/.plugins/org.eclipse.cdt.core/
+* .metadata/.plugins/org.eclipse.cdt.core/.log
+* .metadata/.plugins/org.eclipse.cdt.make.core/
+* .metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+* .metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp
+* .metadata/.plugins/org.eclipse.core.resources/
+* .metadata/.plugins/org.eclipse.core.resources/.DS_Store
+* .metadata/.plugins/org.eclipse.core.resources/.root/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.DS_Store
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+* .metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+* .metadata/.plugins/org.eclipse.core.runtime/
+* .metadata/.plugins/org.eclipse.core.runtime/.DS_Store
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+* .metadata/.plugins/org.eclipse.e4.workbench/
+* .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+* .metadata/.plugins/org.eclipse.jdt.core/
+* .metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache
+* .metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+* .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+* .metadata/.plugins/org.eclipse.jdt.ui/
+* .metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.ide/
+* .metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/
+* .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+* .metadata/version.ini
+* Slice PUSH.iml
+* proguard-project.txt
+From ViewPageIndicator:
+* .DS_Store
+* pom.xml
+* proguard-project.txt
+From android-async-http:
+* .DS_Store
+* .gitignore
+* README.md
+* build.xml
+* local.properties.dist
+From com-crashlytics-sdk-android_answers:
+* aapt/
+* aapt/.classpath
+* aapt/.project
+* aapt/.settings/
+* aapt/.settings/org.eclipse.jdt.core.prefs
+* aapt/AndroidManifest.xml
+* aapt/bin/
+* aapt/bin/AndroidManifest.xml
+* aapt/bin/classes/
+* aapt/bin/classes/com/
+* aapt/bin/classes/com/crashlytics/
+* aapt/bin/classes/com/crashlytics/android/
+* aapt/bin/classes/com/crashlytics/android/answers/
+* aapt/bin/classes/com/crashlytics/android/answers/BuildConfig.class
+* aapt/bin/jarlist.cache
+* aapt/gen/
+* aapt/gen/com/
+* aapt/gen/com/crashlytics/
+* aapt/gen/com/crashlytics/android/
+* aapt/gen/com/crashlytics/android/answers/
+* aapt/gen/com/crashlytics/android/answers/BuildConfig.java
+* aapt/project.properties
+* build.xml
+* kit-version.properties
+From com-crashlytics-sdk-android_answers_3:
+* aapt/
+* aapt/AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From com-crashlytics-sdk-android_beta:
+* aapt/
+* aapt/AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From com-crashlytics-sdk-android_beta_3:
+* aapt/
+* aapt/AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From com-crashlytics-sdk-android_crashlytics:
+* aapt/
+* aapt/AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From com-crashlytics-sdk-android_crashlytics-core:
+* aapt/
+* aapt/AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From com-crashlytics-sdk-android_crashlytics-core_3:
+* aapt/
+* aapt/AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From com-crashlytics-sdk-android_crashlytics_3:
+* aapt/
+* aapt/AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From design:
+* .DS_Store
+From io-fabric-sdk-android_fabric:
+* aapt/
+* aapt/AndroidManifest.xml
+* build.xml
+* kit-version.properties
+* proguard.txt
+From io-fabric-sdk-android_fabric_3:
+* aapt/
+* aapt/AndroidManifest.xml
+* build.xml
+* kit-version.properties
+* proguard.txt
+From recyclerview:
+* README.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:23.4.0
+gcm.jar => com.google.android.gms:play-services:+
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:23.4.0]
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In Library:
+* AndroidManifest.xml => library/src/main/AndroidManifest.xml
+* assets/ => library/src/main/assets
+* libs/NineOldAndroid-2.4.0.jar => library/libs/NineOldAndroid-2.4.0.jar
+* libs/picasso-2.3.3.jar => library/libs/picasso-2.3.3.jar
+* res/ => library/src/main/res/
+* src/ => library/src/main/java/
+* src/.DS_Store => library/src/main/resources/.DS_Store
+* src/com/.DS_Store => library/src/main/resources/com/.DS_Store
+* src/com/daimajia/.DS_Store => library/src/main/resources/com/daimajia/.DS_Store
+* src/com/daimajia/slider/.DS_Store => library/src/main/resources/com/daimajia/slider/.DS_Store
+* src/com/daimajia/slider/library/.DS_Store => library/src/main/resources/com/daimajia/slider/library/.DS_Store
+In PatternedEditText:
+* AndroidManifest.xml => patternedEditText/src/main/AndroidManifest.xml
+* assets/ => patternedEditText/src/main/assets
+* lint.xml => patternedEditText/lint.xml
+* res/ => patternedEditText/src/main/res/
+* src/ => patternedEditText/src/main/java/
+* src/.DS_Store => patternedEditText/src/main/resources/.DS_Store
+* src/com/.DS_Store => patternedEditText/src/main/resources/com/.DS_Store
+* src/com/faradaj/.DS_Store => patternedEditText/src/main/resources/com/faradaj/.DS_Store
+* src/com/faradaj/patternededittext/.DS_Store => patternedEditText/src/main/resources/com/faradaj/patternededittext/.DS_Store
+In SelectableRoundedImageViewLib:
+* AndroidManifest.xml => selectableRoundedImageViewLib/src/main/AndroidManifest.xml
+* assets/ => selectableRoundedImageViewLib/src/main/assets
+* res/ => selectableRoundedImageViewLib/src/main/res/
+* src/ => selectableRoundedImageViewLib/src/main/java/
+In ViewPageIndicator:
+* AndroidManifest.xml => viewPageIndicator/src/main/AndroidManifest.xml
+* assets/ => viewPageIndicator/src/main/assets/
+* res/ => viewPageIndicator/src/main/res/
+* src/ => viewPageIndicator/src/main/java/
+* src/.DS_Store => viewPageIndicator/src/main/resources/.DS_Store
+* src/com/.DS_Store => viewPageIndicator/src/main/resources/com/.DS_Store
+* src/com/viewpagerindicator/.DS_Store => viewPageIndicator/src/main/resources/com/viewpagerindicator/.DS_Store
+In android-async-http:
+* AndroidManifest.xml => androidasynchttp/src/main/AndroidManifest.xml
+* assets/ => androidasynchttp/src/main/assets
+* examples/ => androidasynchttp/src/main/java/
+* res/ => androidasynchttp/src/main/res/
+* src/ => androidasynchttp/src/main/java/
+* src/.DS_Store => androidasynchttp/src/main/resources/.DS_Store
+* src/com/.DS_Store => androidasynchttp/src/main/resources/com/.DS_Store
+* src/com/loopj/.DS_Store => androidasynchttp/src/main/resources/com/loopj/.DS_Store
+* src/com/loopj/android/.DS_Store => androidasynchttp/src/main/resources/com/loopj/android/.DS_Store
+In Slice PUSH:
+* AndroidManifest.xml => slicePUSH/src/main/AndroidManifest.xml
+* assets/ => slicePUSH/src/main/assets/
+* lint.xml => slicePUSH/lint.xml
+* res/ => slicePUSH/src/main/res/
+* src/ => slicePUSH/src/main/java/
+* src/.DS_Store => slicePUSH/src/main/resources/.DS_Store
+* src/com/.DS_Store => slicePUSH/src/main/resources/com/.DS_Store
+* src/com/mobiblanc/.DS_Store => slicePUSH/src/main/resources/com/mobiblanc/.DS_Store
+* src/com/mobiblanc/pushlibrary/.DS_Store => slicePUSH/src/main/resources/com/mobiblanc/pushlibrary/.DS_Store
+In com-crashlytics-sdk-android_answers:
+* AndroidManifest.xml => comcrashlyticssdkandroid_answers/src/main/AndroidManifest.xml
+* assets/ => comcrashlyticssdkandroid_answers/src/main/assets
+* libs/com-crashlytics-sdk-android_answers-classes.jar => comcrashlyticssdkandroid_answers/libs/com-crashlytics-sdk-android_answers-classes.jar
+* res/ => comcrashlyticssdkandroid_answers/src/main/res
+* src/ => comcrashlyticssdkandroid_answers/src/main/java
+In com-crashlytics-sdk-android_answers_3:
+* AndroidManifest.xml => comcrashlyticssdkandroid_answers_3/src/main/AndroidManifest.xml
+* assets/ => comcrashlyticssdkandroid_answers_3/src/main/assets
+* libs/com-crashlytics-sdk-android_answers-classes.jar => comcrashlyticssdkandroid_answers_3/libs/com-crashlytics-sdk-android_answers-classes.jar
+* res/ => comcrashlyticssdkandroid_answers_3/src/main/res
+* src/ => comcrashlyticssdkandroid_answers_3/src/main/java
+In com-crashlytics-sdk-android_beta:
+* AndroidManifest.xml => comcrashlyticssdkandroid_beta/src/main/AndroidManifest.xml
+* assets/ => comcrashlyticssdkandroid_beta/src/main/assets
+* libs/com-crashlytics-sdk-android_beta-classes.jar => comcrashlyticssdkandroid_beta/libs/com-crashlytics-sdk-android_beta-classes.jar
+* res/ => comcrashlyticssdkandroid_beta/src/main/res
+* src/ => comcrashlyticssdkandroid_beta/src/main/java
+In com-crashlytics-sdk-android_beta_3:
+* AndroidManifest.xml => comcrashlyticssdkandroid_beta_3/src/main/AndroidManifest.xml
+* assets/ => comcrashlyticssdkandroid_beta_3/src/main/assets
+* libs/com-crashlytics-sdk-android_beta-classes.jar => comcrashlyticssdkandroid_beta_3/libs/com-crashlytics-sdk-android_beta-classes.jar
+* res/ => comcrashlyticssdkandroid_beta_3/src/main/res
+* src/ => comcrashlyticssdkandroid_beta_3/src/main/java
+In com-crashlytics-sdk-android_crashlytics:
+* AndroidManifest.xml => comcrashlyticssdkandroid_crashlytics/src/main/AndroidManifest.xml
+* assets/ => comcrashlyticssdkandroid_crashlytics/src/main/assets
+* libs/com-crashlytics-sdk-android_crashlytics-classes.jar => comcrashlyticssdkandroid_crashlytics/libs/com-crashlytics-sdk-android_crashlytics-classes.jar
+* res/ => comcrashlyticssdkandroid_crashlytics/src/main/res
+* src/ => comcrashlyticssdkandroid_crashlytics/src/main/java
+In com-crashlytics-sdk-android_crashlytics-core_3:
+* AndroidManifest.xml => comcrashlyticssdkandroid_crashlyticscore_3/src/main/AndroidManifest.xml
+* assets/ => comcrashlyticssdkandroid_crashlyticscore_3/src/main/assets
+* libs/com-crashlytics-sdk-android_crashlytics-core-classes.jar => comcrashlyticssdkandroid_crashlyticscore_3/libs/com-crashlytics-sdk-android_crashlytics-core-classes.jar
+* res/ => comcrashlyticssdkandroid_crashlyticscore_3/src/main/res
+* src/ => comcrashlyticssdkandroid_crashlyticscore_3/src/main/java
+In com-crashlytics-sdk-android_crashlytics_3:
+* AndroidManifest.xml => comcrashlyticssdkandroid_crashlytics_3/src/main/AndroidManifest.xml
+* assets/ => comcrashlyticssdkandroid_crashlytics_3/src/main/assets
+* libs/com-crashlytics-sdk-android_crashlytics-classes.jar => comcrashlyticssdkandroid_crashlytics_3/libs/com-crashlytics-sdk-android_crashlytics-classes.jar
+* res/ => comcrashlyticssdkandroid_crashlytics_3/src/main/res
+* src/ => comcrashlyticssdkandroid_crashlytics_3/src/main/java
+In design:
+* AndroidManifest.xml => design/src/main/AndroidManifest.xml
+* assets/ => design/src/main/assets
+* res/ => design/src/main/res/
+* src/ => design/src/main/java
+* src/.readme => design/src/main/resources/.readme
+In io-fabric-sdk-android_fabric:
+* AndroidManifest.xml => iofabricsdkandroid_fabric/src/main/AndroidManifest.xml
+* assets/ => iofabricsdkandroid_fabric/src/main/assets
+* libs/io-fabric-sdk-android_fabric-classes.jar => iofabricsdkandroid_fabric/libs/io-fabric-sdk-android_fabric-classes.jar
+* res/ => iofabricsdkandroid_fabric/src/main/res
+* src/ => iofabricsdkandroid_fabric/src/main/java
+In com-crashlytics-sdk-android_crashlytics-core:
+* AndroidManifest.xml => comcrashlyticssdkandroid_crashlyticscore/src/main/AndroidManifest.xml
+* assets/ => comcrashlyticssdkandroid_crashlyticscore/src/main/assets
+* libs/com-crashlytics-sdk-android_crashlytics-core-classes.jar => comcrashlyticssdkandroid_crashlyticscore/libs/com-crashlytics-sdk-android_crashlytics-core-classes.jar
+* res/ => comcrashlyticssdkandroid_crashlyticscore/src/main/res
+* src/ => comcrashlyticssdkandroid_crashlyticscore/src/main/java
+In io-fabric-sdk-android_fabric_3:
+* AndroidManifest.xml => iofabricsdkandroid_fabric_3/src/main/AndroidManifest.xml
+* assets/ => iofabricsdkandroid_fabric_3/src/main/assets
+* libs/io-fabric-sdk-android_fabric-classes.jar => iofabricsdkandroid_fabric_3/libs/io-fabric-sdk-android_fabric-classes.jar
+* res/ => iofabricsdkandroid_fabric_3/src/main/res
+* src/ => iofabricsdkandroid_fabric_3/src/main/java
+In recyclerview:
+* AndroidManifest.xml => recyclerview/src/main/AndroidManifest.xml
+* assets/ => recyclerview/src/main/assets
+* res/ => recyclerview/src/main/res/
+* src/ => recyclerview/src/main/java
+In ClubInwiApp:
+* AndroidManifest.xml => clubInwiApp/src/main/AndroidManifest.xml
+* assets/ => clubInwiApp/src/main/assets/
+* libs/VolleyLibrary-1.0.18.jar => clubInwiApp/libs/VolleyLibrary-1.0.18.jar
+* libs/commons-codec-1.10.jar => clubInwiApp/libs/commons-codec-1.10.jar
+* libs/commons-io-2.4.jar => clubInwiApp/libs/commons-io-2.4.jar
+* libs/firebase-analytics.jar => clubInwiApp/libs/firebase-analytics.jar
+* libs/glide-3.7.0.jar => clubInwiApp/libs/glide-3.7.0.jar
+* libs/universal-image-loader-1.9.3.jar => clubInwiApp/libs/universal-image-loader-1.9.3.jar
+* lint.xml => clubInwiApp/lint.xml
+* proguard-project.txt => clubInwiApp/proguard-project.txt
+* res/ => clubInwiApp/src/main/res/
+* src/ => clubInwiApp/src/main/java/
+* src/.DS_Store => clubInwiApp/src/main/resources/.DS_Store
+* src/com/.DS_Store => clubInwiApp/src/main/resources/com/.DS_Store
+* src/com/inwi/.DS_Store => clubInwiApp/src/main/resources/com/inwi/.DS_Store
+* src/com/inwi/clubinwi/.DS_Store => clubInwiApp/src/main/resources/com/inwi/clubinwi/.DS_Store
+* src/com/inwi/clubinwi/Utils/.DS_Store => clubInwiApp/src/main/resources/com/inwi/clubinwi/Utils/.DS_Store
+* src/com/inwi/clubinwi/adapters/.DS_Store => clubInwiApp/src/main/resources/com/inwi/clubinwi/adapters/.DS_Store
+* src/com/inwi/clubinwi/roundedimage/.DS_Store => clubInwiApp/src/main/resources/com/inwi/clubinwi/roundedimage/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

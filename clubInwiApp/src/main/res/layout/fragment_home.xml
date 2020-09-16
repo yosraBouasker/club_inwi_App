@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.inwi.clubinwi.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/pink"
+            app:tabMode="scrollable" />
+
+        <com.inwi.clubinwi.adapters.RtlViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutParamEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/connexion" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_informations_to_show"
+            android:textColor="#4e5b75"
+            android:textSize="12sp"
+            app:font_style="bold" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/myTextConnexion"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/error_connexion"
+            android:textColor="#4e5b75"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

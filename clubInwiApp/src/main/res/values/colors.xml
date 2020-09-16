@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#ac2783</color>
+    <color name="pinkPressed">#d945ab</color>
+    <color name="dark_gray">#333333</color>
+    <color name="gray">#686869</color>
+    <color name="light_gray">#c9cbcc</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="purple">#381B49</color>
+    <color name="ColorPrimary">#00897B</color>
+    <color name="ColorPrimaryDark">#00695C</color>
+    <color name="tabsScrollColor">#004D40</color>
+    <color name="grayColor">#75508a</color>
+
+    <!--ACHOURA  -BEGIN- -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="violet">#C3027E</color>
+    <color name="darkViolet">#8a0155</color>
+    <color name="lightBlue">#018ec5</color>
+    <color name="yellow">#f9c900</color>
+    <color name="green">#5bc000</color>
+    <color name="disabled_gray">#B3B3B3</color>
+    <color name="transparent_black">#99000000</color>
+    <color name="grey_tab_layout">#212121</color>
+    <!--ACHOURA  -END- -->
+
+</resources>

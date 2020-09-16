@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lang_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/felicitations" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/congratulation"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    custom:font_style="light" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.inwi.clubinwi.views.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/you_number"
+                        android:textColor="#1d1d26"
+                        android:textSize="13sp"
+                        custom:font_style="light" />
+
+                    <com.inwi.clubinwi.views.MyTextView
+                        android:id="@+id/myTextViewNumero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/pink"
+                        android:textSize="13sp"
+                        custom:font_style="light" />
+
+                    <com.inwi.clubinwi.views.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/parenthese"
+                        android:textColor="#1d1d26"
+                        android:textSize="13sp"
+                        custom:font_style="light" />
+                </LinearLayout>
+
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/was_added_with_succes"
+                    android:textColor="#1d1d26"
+                    android:textSize="13sp"
+                    custom:font_style="light" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#e9e9e9" />
+
+        <com.inwi.clubinwi.views.MyTextView
+            android:id="@+id/myTextViewOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/ok"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            custom:font_style="light" />
+    </LinearLayout>
+
+</RelativeLayout>

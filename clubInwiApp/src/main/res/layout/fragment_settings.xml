@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/notifications_push"
+                    android:textColor="#45454a"
+                    android:textSize="13sp" />
+                <ImageView
+                    android:id="@+id/buttonPushNotification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/switchon" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f7f7f7">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentTop="true"
+                    android:background="#d1d6e1" />
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="@string/langue"
+                    android:textAllCaps="true"
+                    android:textColor="#a3a3a4"
+                    android:textSize="12sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#d1d6e1" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layoutLangue"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layoutDirection="ltr"
+                android:padding="10dp">
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_toStartOf="@id/buttonSwitchLangue"
+                    android:padding="10dp"
+                    android:text="@string/french"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+                <ImageView
+                    android:id="@+id/buttonSwitchLangue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/switchon_ar" />
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/buttonSwitchLangue"
+                    android:padding="10dp"
+                    android:text="@string/arabic"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f7f7f7">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentTop="true"
+                    android:background="#d1d6e1" />
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="@string/invitation"
+                    android:textColor="#a3a3a4"
+                    android:textSize="12sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#d1d6e1" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layoutInviterAmi"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:padding="10dp">
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/share_app"
+                    android:textColor="#45454a"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/down_setting" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f7f7f7">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentTop="true"
+                    android:background="#d1d6e1" />
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="@string/data_manager"
+                    android:textColor="#a3a3a4"
+                    android:textSize="12sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#d1d6e1" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="5dp">
+                <com.inwi.clubinwi.views.MyTextView
+                    android:id="@+id/valider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/round_corners_mv"
+                    android:gravity="center"
+                    android:text="@string/clear_cache"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f7f7f7">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentTop="true"
+                    android:background="#d1d6e1" />
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="@string/informations"
+                    android:textColor="#a3a3a4"
+                    android:textSize="12sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#d1d6e1" />
+                <TextView
+                    android:id="@+id/textView_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#a3a3a4"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/layoutAide"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:padding="10dp">
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/faq"
+                    android:textColor="#45454a"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/down_setting" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#d1d6e1" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#d1d6e1" />
+            <RelativeLayout
+                android:id="@+id/layoutCondition"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:padding="10dp">
+                <com.inwi.clubinwi.views.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/use_condition"
+                    android:textColor="#45454a"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/down_setting" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#d1d6e1" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
